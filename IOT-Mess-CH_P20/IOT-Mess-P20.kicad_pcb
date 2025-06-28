@@ -7449,7 +7449,7 @@
 			(pinfunction "GND")
 			(pintype "bidirectional")
 			(zone_connect 2)
-			(uuid "09216bc5-71e4-4588-b0e3-faf7ffebc2fd")
+			(uuid "c296de4d-d628-4453-a731-045e4ce6bc68")
 		)
 		(pad "1" smd roundrect
 			(at -1.45 0.8 270)
@@ -8303,7 +8303,7 @@
 			(justify right bottom mirror)
 		)
 	)
-	(gr_text "CH32V_Mess\nP20 V1.0\n"
+	(gr_text "IOT_Mess\nCH_P20 V1.0\n"
 		(at 112.875 75.125 0)
 		(layer "B.SilkS")
 		(uuid "a7ab83e4-7843-45d5-8502-0a80a731cb12")

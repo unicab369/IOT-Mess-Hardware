@@ -1380,7 +1380,7 @@
 	(footprint "Resistor_SMD:R_0603_1608Metric"
 		(layer "F.Cu")
 		(uuid "1b1c837e-050f-4ee2-90ab-5b3ccc3bdd81")
-		(at 87.106996 97.707721 90)
+		(at 131.08 116.505 90)
 		(descr "Resistor SMD 0603 (1608 Metric), square (rectangular) end terminal, IPC-7351 nominal, (Body size source: IPC-SM-782 page 72, https://www.pcb-3d.com/wordpress/wp-content/uploads/ipc-sm-782a_amendment_1_and_2.pdf), generated with kicad-footprint-generator")
 		(tags "resistor")
 		(property "Reference" "R8"
@@ -9509,7 +9509,7 @@
 	(footprint "LED_SMD:LED_0603_1608Metric"
 		(layer "B.Cu")
 		(uuid "eded6f28-fe6c-4edb-8374-8079f90e1045")
-		(at 87.106996 97.707721 -90)
+		(at 131.08 116.505 -90)
 		(descr "LED SMD 0603 (1608 Metric), square (rectangular) end terminal, IPC-7351 nominal, (Body size source: http://www.tortai-tech.com/upload/download/2011102023233369053.pdf), generated with kicad-footprint-generator")
 		(tags "LED")
 		(property "Reference" "D2"
@@ -9757,6 +9757,82 @@
 		(fill no)
 		(layer "Edge.Cuts")
 		(uuid "0c72349b-eab2-4f49-b91d-787c5b7c25b5")
+	)
+	(dimension
+		(type orthogonal)
+		(layer "User.1")
+		(uuid "187beda6-0a2f-4e2d-8ffb-d6e55c4c5355")
+		(pts
+			(xy 93.306996 57.307721) (xy 93.306997 122.30772)
+		)
+		(height -7.976996)
+		(orientation 1)
+		(format
+			(prefix "")
+			(suffix "")
+			(units 3)
+			(units_format 0)
+			(precision 4)
+			(suppress_zeroes yes)
+		)
+		(style
+			(thickness 0.1)
+			(arrow_length 1.27)
+			(text_position_mode 0)
+			(arrow_direction outward)
+			(extension_height 0.58642)
+			(extension_offset 0.5)
+			(keep_text_aligned yes)
+		)
+		(gr_text "65"
+			(at 84.18 89.807721 90)
+			(layer "User.1")
+			(uuid "187beda6-0a2f-4e2d-8ffb-d6e55c4c5355")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+	)
+	(dimension
+		(type orthogonal)
+		(layer "User.1")
+		(uuid "d469e449-b9e4-473a-80f5-2a0603e0d4fd")
+		(pts
+			(xy 93.306997 122.30772) (xy 123.706995 122.30772)
+		)
+		(height 8.23228)
+		(orientation 0)
+		(format
+			(prefix "")
+			(suffix "")
+			(units 3)
+			(units_format 0)
+			(precision 4)
+			(suppress_zeroes yes)
+		)
+		(style
+			(thickness 0.1)
+			(arrow_length 1.27)
+			(text_position_mode 0)
+			(arrow_direction outward)
+			(extension_height 0.58642)
+			(extension_offset 0.5)
+			(keep_text_aligned yes)
+		)
+		(gr_text "30.4"
+			(at 108.506996 129.39 0)
+			(layer "User.1")
+			(uuid "d469e449-b9e4-473a-80f5-2a0603e0d4fd")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
 	)
 	(segment
 		(start 102.958495 112.08872)

@@ -1,4 +1,4 @@
-25306704737127345
+25308455720704323
 Audio_Module
 Reverb_BTDR-1H
 Digital Reverberation Unit, http://www.belton.co.kr/inc/downfile.php?seq=17&file=pdf (footprint from http://www.uk-electronic.de/PDF/BTDR-1.pdf)
@@ -59576,6 +59576,13 @@ rotary encoder
 0
 7
 6
+IOT-Mess-Footprints
+TP_Charger
+Through hole straight pin header, 1x09, 2.54mm pitch, single row
+Through hole pin header THT 1x09 2.54mm single row
+0
+9
+9
 IOT-Mess-Footprints
 Untitled
 
