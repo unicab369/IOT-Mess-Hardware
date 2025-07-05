@@ -52,7 +52,36 @@
         }
       },
       "diff_pair_dimensions": [],
-      "drc_exclusions": [],
+      "drc_exclusions": [
+        [
+          "courtyards_overlap|148845000|69775000|0ddd7f91-905d-4256-957e-bf82f03d9ea0|23fc7df8-2a15-4f94-9780-f152d7c1aa55",
+          ""
+        ],
+        [
+          "courtyards_overlap|148845000|77705000|0ddd7f91-905d-4256-957e-bf82f03d9ea0|56fe0229-7867-4ee0-9df5-f9c755a83d42",
+          ""
+        ],
+        [
+          "courtyards_overlap|148845000|91305000|0ddd7f91-905d-4256-957e-bf82f03d9ea0|1828cce5-ce1c-4ce1-af8a-1f85d88e1f55",
+          ""
+        ],
+        [
+          "courtyards_overlap|148845000|95435000|0ddd7f91-905d-4256-957e-bf82f03d9ea0|76bcf0c5-f291-471f-ab6c-1bbaaeeec86c",
+          ""
+        ],
+        [
+          "courtyards_overlap|163755000|72515000|0ddd7f91-905d-4256-957e-bf82f03d9ea0|2a378fe5-7c46-4e8c-ab3f-205042dc12b5",
+          ""
+        ],
+        [
+          "courtyards_overlap|167459204|79885000|0b41d99c-854a-48a2-b728-e46e5db0c0e6|0ddd7f91-905d-4256-957e-bf82f03d9ea0",
+          ""
+        ],
+        [
+          "courtyards_overlap|187605000|79885000|0b41d99c-854a-48a2-b728-e46e5db0c0e6|2a378fe5-7c46-4e8c-ab3f-205042dc12b5",
+          ""
+        ]
+      ],
       "meta": {
         "version": 2
       },
@@ -94,9 +123,9 @@
         "padstack": "warning",
         "pth_inside_courtyard": "ignore",
         "shorting_items": "error",
-        "silk_edge_clearance": "warning",
-        "silk_over_copper": "warning",
-        "silk_overlap": "warning",
+        "silk_edge_clearance": "ignore",
+        "silk_over_copper": "ignore",
+        "silk_overlap": "ignore",
         "skew_out_of_range": "error",
         "solder_mask_bridge": "error",
         "starved_thermal": "error",
@@ -125,7 +154,7 @@
         "min_hole_to_hole": 0.25,
         "min_microvia_diameter": 0.2,
         "min_microvia_drill": 0.1,
-        "min_resolved_spokes": 2,
+        "min_resolved_spokes": 1,
         "min_silk_clearance": 0.0,
         "min_text_height": 0.8,
         "min_text_thickness": 0.08,

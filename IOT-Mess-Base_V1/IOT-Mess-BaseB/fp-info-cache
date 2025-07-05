@@ -1,4 +1,4 @@
-25320726706882379
+25320727376872614
 Audio_Module
 Reverb_BTDR-1H
 Digital Reverberation Unit, http://www.belton.co.kr/inc/downfile.php?seq=17&file=pdf (footprint from http://www.uk-electronic.de/PDF/BTDR-1.pdf)
@@ -59540,7 +59540,7 @@ ESP32-S3-WROOM-1 is a powerful, generic Wi-Fi + Bluetooth LE MCU modules that ha
 esp32-s3
 0
 20
-5
+20
 IOT-Mess-Footprints
 ESP_P16
 Through hole straight pin header, 1x09, 2.54mm pitch, single row
@@ -59610,7 +59610,7 @@ Through hole straight pin header, 1x21, 2.54mm pitch, single row
 Through hole pin header THT 1x21 2.54mm single row
 0
 40
-33
+40
 IOT-Mess-Footprints
 RotaryEncoder_EC11_SMD
 Alps rotary encoder, EC11E... with switch, vertical shaft, http://www.alps.com/prod/info/E/HTML/Encoder/Incremental/EC11/EC11E15204A3.html
@@ -59623,8 +59623,8 @@ SuperMiniH2
 Through hole straight pin header, 1x09, 2.54mm pitch, single row
 Through hole pin header THT 1x09 2.54mm single row
 0
-18
-18
+20
+20
 IOT-Mess-Footprints
 TP_Charger
 Through hole straight pin header, 1x09, 2.54mm pitch, single row

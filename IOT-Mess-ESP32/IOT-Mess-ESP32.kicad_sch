@@ -9142,6 +9142,9 @@
 		(effects
 			(font
 				(size 1.27 1.27)
+				(thickness 0.254)
+				(bold yes)
+				(color 255 0 255 1)
 			)
 			(justify left)
 		)
@@ -9368,6 +9371,9 @@
 		(effects
 			(font
 				(size 1.27 1.27)
+				(thickness 0.254)
+				(bold yes)
+				(color 0 0 0 1)
 			)
 			(justify right)
 		)
@@ -10010,6 +10016,9 @@
 		(effects
 			(font
 				(size 1.27 1.27)
+				(thickness 0.254)
+				(bold yes)
+				(color 255 0 255 1)
 			)
 			(justify right)
 		)
@@ -10164,6 +10173,9 @@
 		(effects
 			(font
 				(size 1.27 1.27)
+				(thickness 0.254)
+				(bold yes)
+				(color 255 0 255 1)
 			)
 			(justify left)
 		)
@@ -10343,6 +10355,9 @@
 		(effects
 			(font
 				(size 1.27 1.27)
+				(thickness 0.254)
+				(bold yes)
+				(color 255 0 255 1)
 			)
 			(justify right)
 		)
@@ -10564,6 +10579,9 @@
 		(effects
 			(font
 				(size 1.27 1.27)
+				(thickness 0.254)
+				(bold yes)
+				(color 255 0 255 1)
 			)
 			(justify right)
 		)
@@ -11005,6 +11023,9 @@
 		(effects
 			(font
 				(size 1.27 1.27)
+				(thickness 0.254)
+				(bold yes)
+				(color 0 0 0 1)
 			)
 			(justify right)
 		)
@@ -11307,6 +11328,9 @@
 		(effects
 			(font
 				(size 1.27 1.27)
+				(thickness 0.254)
+				(bold yes)
+				(color 255 0 255 1)
 			)
 			(justify left)
 		)
@@ -11574,6 +11598,9 @@
 		(effects
 			(font
 				(size 1.27 1.27)
+				(thickness 0.254)
+				(bold yes)
+				(color 0 0 0 1)
 			)
 			(justify right)
 		)
@@ -11756,6 +11783,9 @@
 		(effects
 			(font
 				(size 1.27 1.27)
+				(thickness 0.254)
+				(bold yes)
+				(color 0 0 0 1)
 			)
 			(justify right)
 		)
@@ -12046,6 +12076,9 @@
 		(effects
 			(font
 				(size 1.27 1.27)
+				(thickness 0.254)
+				(bold yes)
+				(color 0 0 0 1)
 			)
 			(justify right)
 		)
@@ -12521,6 +12554,9 @@
 		(effects
 			(font
 				(size 1.27 1.27)
+				(thickness 0.254)
+				(bold yes)
+				(color 0 0 0 1)
 			)
 			(justify right)
 		)

@@ -1,4 +1,4 @@
-25318975078978019
+25327734763402138
 Audio_Module
 Reverb_BTDR-1H
 Digital Reverberation Unit, http://www.belton.co.kr/inc/downfile.php?seq=17&file=pdf (footprint from http://www.uk-electronic.de/PDF/BTDR-1.pdf)
@@ -59535,12 +59535,26 @@ Through hole pin header THT 1x15 2.54mm single row
 30
 30
 IOT-Mess-Footprints
+CH_P48
+Through hole straight pin header, 1x09, 2.54mm pitch, single row
+Through hole pin header THT 1x09 2.54mm single row
+0
+53
+53
+IOT-Mess-Footprints
+E220-900
+ESP32-S3-WROOM-1 is a powerful, generic Wi-Fi + Bluetooth LE MCU modules that have Dual core CPU , a rich set of peripherals, provides acceleration for neural network computing and signal processing workloads. They are an ideal choice for a wide variety of application scenarios related to AI + Internet of Things (AIoT), such as wake word detection and speech commands recognition , face detection and recognition, smart home, smart appliance, smart control panel, smart speaker etc.
+esp32-s3
+0
+20
+20
+IOT-Mess-Footprints
 ESP_P16
 Through hole straight pin header, 1x09, 2.54mm pitch, single row
 Through hole pin header THT 1x09 2.54mm single row
 0
 19
-17
+19
 IOT-Mess-Footprints
 ESP_P40
 Through hole straight pin header, 1x19, 2.54mm pitch, single row
@@ -59577,6 +59591,13 @@ solder jumper open
 2
 2
 IOT-Mess-Footprints
+Lolin32-Adapter
+Through hole straight pin header, 2x11, 2.54mm pitch, double rows
+Through hole pin header THT 2x11 2.54mm double row
+0
+22
+21
+IOT-Mess-Footprints
 Lolin32-Lite
 
 
@@ -59598,6 +59619,13 @@ Luat32 C3
 32
 32
 IOT-Mess-Footprints
+Mess-P48
+Through hole straight pin header, 2x19, 2.54mm pitch, double rows
+Through hole pin header THT 2x19 2.54mm double row
+0
+48
+38
+IOT-Mess-Footprints
 Milk-V Duo
 Through hole straight pin header, 1x21, 2.54mm pitch, single row
 Through hole pin header THT 1x21 2.54mm single row
@@ -59616,8 +59644,8 @@ SuperMiniH2
 Through hole straight pin header, 1x09, 2.54mm pitch, single row
 Through hole pin header THT 1x09 2.54mm single row
 0
-18
-18
+20
+20
 IOT-Mess-Footprints
 TP_Charger
 Through hole straight pin header, 1x09, 2.54mm pitch, single row
@@ -59627,6 +59655,13 @@ Through hole pin header THT 1x09 2.54mm single row
 4
 IOT-Mess-Footprints
 Untitled
+
+
+0
+0
+0
+IOT-Mess-Footprints
+catIcon8x8
 
 
 0
