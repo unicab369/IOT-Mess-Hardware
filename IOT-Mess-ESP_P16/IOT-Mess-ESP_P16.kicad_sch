@@ -1836,6 +1836,15 @@
 					(hide yes)
 				)
 			)
+			(property "Sim.Pins" "1=K 2=A"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
 			(property "ki_keywords" "LED diode"
 				(at 0 0 0)
 				(effects
@@ -2237,8 +2246,8 @@
 			(exclude_from_sim no)
 			(in_bom yes)
 			(on_board yes)
-			(property "Reference" "U5"
-				(at 2.1433 25.4 0)
+			(property "Reference" "U"
+				(at -25.4 25.4 0)
 				(effects
 					(font
 						(size 1.27 1.27)
@@ -2247,7 +2256,7 @@
 				)
 			)
 			(property "Value" "ESP32-C3-WROOM-02"
-				(at 2.1433 22.86 0)
+				(at -25.4 22.86 0)
 				(effects
 					(font
 						(size 1.27 1.27)
@@ -2255,7 +2264,7 @@
 					(justify left)
 				)
 			)
-			(property "Footprint" "RF_Module:ESP32-C3-WROOM-02"
+			(property "Footprint" "PCM_Espressif:ESP32-C3-WROOM-02"
 				(at 0 -30.48 0)
 				(effects
 					(font
@@ -2535,7 +2544,7 @@
 				(pin bidirectional line
 					(at 27.94 -2.54 180)
 					(length 2.54)
-					(name "GPIO4/SCK"
+					(name "GPIO4/ADC1_CH4"
 						(effects
 							(font
 								(size 1.27 1.27)
@@ -2553,7 +2562,7 @@
 				(pin bidirectional line
 					(at 27.94 -5.08 180)
 					(length 2.54)
-					(name "GPIO5/MISO"
+					(name "GPIO5/ADC2_CH0"
 						(effects
 							(font
 								(size 1.27 1.27)
@@ -2571,7 +2580,7 @@
 				(pin bidirectional line
 					(at 27.94 -7.62 180)
 					(length 2.54)
-					(name "GPIO6/MOSI"
+					(name "GPIO6"
 						(effects
 							(font
 								(size 1.27 1.27)
@@ -2589,7 +2598,7 @@
 				(pin bidirectional line
 					(at 27.94 -10.16 180)
 					(length 2.54)
-					(name "GPIO7/SS"
+					(name "GPIO7"
 						(effects
 							(font
 								(size 1.27 1.27)
@@ -2607,7 +2616,7 @@
 				(pin bidirectional line
 					(at 27.94 -12.7 180)
 					(length 2.54)
-					(name "GPIO8/SDA"
+					(name "GPIO8"
 						(effects
 							(font
 								(size 1.27 1.27)
@@ -2625,7 +2634,7 @@
 				(pin bidirectional line
 					(at 27.94 -15.24 180)
 					(length 2.54)
-					(name "GPIO9/SCL"
+					(name "GPIO9"
 						(effects
 							(font
 								(size 1.27 1.27)
@@ -2916,8 +2925,8 @@
 			(exclude_from_sim no)
 			(in_bom yes)
 			(on_board yes)
-			(property "Reference" "U1"
-				(at 2.1433 22.86 0)
+			(property "Reference" "U"
+				(at -12.7 19.05 0)
 				(effects
 					(font
 						(size 1.27 1.27)
@@ -2926,12 +2935,12 @@
 				)
 			)
 			(property "Value" "ESP-12F"
-				(at 2.1433 20.32 0)
+				(at 12.7 19.05 0)
 				(effects
 					(font
 						(size 1.27 1.27)
 					)
-					(justify left)
+					(justify right)
 				)
 			)
 			(property "Footprint" "RF_Module:ESP-12E"
@@ -3266,7 +3275,7 @@
 				(pin bidirectional line
 					(at 15.24 5.08 180)
 					(length 2.54)
-					(name "GPIO4/SDA"
+					(name "GPIO4"
 						(effects
 							(font
 								(size 1.27 1.27)
@@ -3284,7 +3293,7 @@
 				(pin bidirectional line
 					(at 15.24 2.54 180)
 					(length 2.54)
-					(name "GPIO5/SCL"
+					(name "GPIO5"
 						(effects
 							(font
 								(size 1.27 1.27)
@@ -3302,7 +3311,7 @@
 				(pin bidirectional line
 					(at 15.24 0 180)
 					(length 2.54)
-					(name "GPIO12/MISO"
+					(name "GPIO12"
 						(effects
 							(font
 								(size 1.27 1.27)
@@ -3320,7 +3329,7 @@
 				(pin bidirectional line
 					(at 15.24 -2.54 180)
 					(length 2.54)
-					(name "GPIO13/MOSI"
+					(name "GPIO13"
 						(effects
 							(font
 								(size 1.27 1.27)
@@ -3338,7 +3347,7 @@
 				(pin bidirectional line
 					(at 15.24 -5.08 180)
 					(length 2.54)
-					(name "GPIO14/SCK"
+					(name "GPIO14"
 						(effects
 							(font
 								(size 1.27 1.27)
@@ -3356,7 +3365,7 @@
 				(pin bidirectional line
 					(at 15.24 -7.62 180)
 					(length 2.54)
-					(name "GPIO15/SS"
+					(name "GPIO15"
 						(effects
 							(font
 								(size 1.27 1.27)
@@ -3840,8 +3849,12 @@
 		)
 		(symbol "power:GND"
 			(power)
+			(pin_numbers
+				(hide yes)
+			)
 			(pin_names
 				(offset 0)
+				(hide yes)
 			)
 			(exclude_from_sim no)
 			(in_bom yes)
@@ -3917,8 +3930,7 @@
 				(pin power_in line
 					(at 0 0 270)
 					(length 0)
-					(hide yes)
-					(name "GND"
+					(name "~"
 						(effects
 							(font
 								(size 1.27 1.27)
@@ -4135,6 +4147,12 @@
 		(uuid "dfabea27-6259-4ffb-90bc-591585487535")
 	)
 	(junction
+		(at 152.4 209.55)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "f79bf760-a374-4bea-a82a-02a333295317")
+	)
+	(junction
 		(at 125.73 232.41)
 		(diameter 0)
 		(color 0 0 0 0)
@@ -4167,10 +4185,6 @@
 	(no_connect
 		(at 124.46 102.87)
 		(uuid "b6e8b04f-3a62-4c60-9f6c-473589014caa")
-	)
-	(no_connect
-		(at 185.42 116.84)
-		(uuid "de1f9694-6659-4722-9cbc-e5ae029c9a57")
 	)
 	(no_connect
 		(at 124.46 110.49)
@@ -4219,6 +4233,16 @@
 			(type default)
 		)
 		(uuid "08d1a78b-b417-4e50-aa28-c49960e3edea")
+	)
+	(wire
+		(pts
+			(xy 161.29 204.47) (xy 161.29 209.55)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "0974c0a5-0d19-41b0-9c60-b84a4b7310fa")
 	)
 	(wire
 		(pts
@@ -4692,6 +4716,16 @@
 	)
 	(wire
 		(pts
+			(xy 152.4 209.55) (xy 152.4 204.47)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "70e56fd3-a879-479e-b410-a4bd7c5a3adb")
+	)
+	(wire
+		(pts
 			(xy 294.64 160.02) (xy 294.64 158.75)
 		)
 		(stroke
@@ -4802,7 +4836,7 @@
 	)
 	(wire
 		(pts
-			(xy 152.4 214.63) (xy 152.4 209.55)
+			(xy 152.4 209.55) (xy 152.4 214.63)
 		)
 		(stroke
 			(width 0)
@@ -5339,6 +5373,16 @@
 			(type default)
 		)
 		(uuid "df4ab8d2-2a89-44dd-b9b0-ab4180f1f863")
+	)
+	(wire
+		(pts
+			(xy 161.29 209.55) (xy 152.4 209.55)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "e3282cb5-dd67-4048-9ec7-6753b5bfc402")
 	)
 	(wire
 		(pts
@@ -6889,6 +6933,71 @@
 		)
 	)
 	(symbol
+		(lib_id "power:PWR_FLAG")
+		(at 161.29 204.47 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "257f9b46-9716-46c5-a9d6-bf82388767db")
+		(property "Reference" "#FLG06"
+			(at 161.29 202.565 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "PWR_FLAG"
+			(at 161.29 199.39 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 161.29 204.47 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 161.29 204.47 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Special symbol for telling ERC where power comes from"
+			(at 161.29 204.47 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "5bd632c2-ffbc-4b15-8fe9-6572a01d315a")
+		)
+		(instances
+			(project "IOT-Mess-ESP_P16"
+				(path "/015ef37e-b488-4fc9-8cfc-c186768bee82"
+					(reference "#FLG06")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "Device:R")
 		(at 115.57 87.63 270)
 		(unit 1)
@@ -7476,7 +7585,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" ""
+		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
 			(at 182.88 222.25 0)
 			(effects
 				(font
@@ -8378,7 +8487,16 @@
 				(hide yes)
 			)
 		)
-		(property "Description" ""
+		(property "Description" "Light emitting diode"
+			(at 173.99 214.63 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Sim.Pins" "1=K 2=A"
 			(at 173.99 214.63 0)
 			(effects
 				(font
@@ -8811,7 +8929,7 @@
 	)
 	(symbol
 		(lib_id "power:+3.3V")
-		(at 152.4 209.55 0)
+		(at 152.4 204.47 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -8819,7 +8937,7 @@
 		(dnp no)
 		(uuid "c2123621-b440-4803-a687-4bd56fd56065")
 		(property "Reference" "#PWR026"
-			(at 152.4 213.36 0)
+			(at 152.4 208.28 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -8828,7 +8946,7 @@
 			)
 		)
 		(property "Value" "+3.3V"
-			(at 152.4 205.486 0)
+			(at 152.4 200.406 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -8836,7 +8954,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 152.4 209.55 0)
+			(at 152.4 204.47 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -8845,7 +8963,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 152.4 209.55 0)
+			(at 152.4 204.47 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -8854,7 +8972,7 @@
 			)
 		)
 		(property "Description" "Power symbol creates a global label with name \"+3.3V\""
-			(at 152.4 209.55 0)
+			(at 152.4 204.47 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -9038,7 +9156,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "RF_Module:ESP32-C3-WROOM-02"
+		(property "Footprint" "PCM_Espressif:ESP32-C3-WROOM-02"
 			(at 242.57 128.27 0)
 			(effects
 				(font

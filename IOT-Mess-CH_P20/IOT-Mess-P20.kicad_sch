@@ -701,113 +701,6 @@
 			)
 			(embedded_fonts no)
 		)
-		(symbol "Connector:TestPoint"
-			(pin_numbers
-				(hide yes)
-			)
-			(pin_names
-				(offset 0.762)
-				(hide yes)
-			)
-			(exclude_from_sim no)
-			(in_bom yes)
-			(on_board yes)
-			(property "Reference" "TP"
-				(at 0 6.858 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(property "Value" "TestPoint"
-				(at 0 5.08 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(property "Footprint" ""
-				(at 5.08 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "Datasheet" "~"
-				(at 5.08 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "Description" "test point"
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "ki_keywords" "test point tp"
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "ki_fp_filters" "Pin* Test*"
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(symbol "TestPoint_0_1"
-				(circle
-					(center 0 3.302)
-					(radius 0.762)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-			)
-			(symbol "TestPoint_1_1"
-				(pin passive line
-					(at 0 0 90)
-					(length 2.54)
-					(name "1"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "1"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-			)
-			(embedded_fonts no)
-		)
 		(symbol "Connector:USB_C_Receptacle_USB2.0_16P"
 			(pin_names
 				(offset 1.016)
@@ -1984,6 +1877,15 @@
 					(hide yes)
 				)
 			)
+			(property "Sim.Pins" "1=K 2=A"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
 			(property "ki_keywords" "LED diode"
 				(at 0 0 0)
 				(effects
@@ -2548,7 +2450,7 @@
 						)
 					)
 				)
-				(pin bidirectional line
+				(pin input line
 					(at -26.67 10.16 0)
 					(length 3.81)
 					(name "GND"
@@ -2558,7 +2460,7 @@
 							)
 						)
 					)
-					(number "0"
+					(number "21"
 						(effects
 							(font
 								(size 1.27 1.27)
@@ -4567,8 +4469,12 @@
 		)
 		(symbol "power:GND"
 			(power)
+			(pin_numbers
+				(hide yes)
+			)
 			(pin_names
 				(offset 0)
+				(hide yes)
 			)
 			(exclude_from_sim no)
 			(in_bom yes)
@@ -4644,8 +4550,7 @@
 				(pin power_in line
 					(at 0 0 270)
 					(length 0)
-					(hide yes)
-					(name "GND"
+					(name "~"
 						(effects
 							(font
 								(size 1.27 1.27)
@@ -4862,6 +4767,12 @@
 		(uuid "b0cbebe3-6d08-462b-8cf4-ef8b60a6f334")
 	)
 	(junction
+		(at 185.42 205.74)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "b8d4d793-7150-4454-b326-153ac6ebf63d")
+	)
+	(junction
 		(at 81.28 49.53)
 		(diameter 0)
 		(color 0 0 0 0)
@@ -5068,16 +4979,6 @@
 			(type default)
 		)
 		(uuid "0f865f15-6a1e-466c-9062-c0bfae1d7025")
-	)
-	(wire
-		(pts
-			(xy 137.16 43.18) (xy 137.16 46.99)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "15e737f3-83f8-40db-bf90-875294950f36")
 	)
 	(wire
 		(pts
@@ -5451,6 +5352,16 @@
 	)
 	(wire
 		(pts
+			(xy 185.42 205.74) (xy 185.42 215.9)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "4cdf6f32-e4c8-4784-ab5b-dc8012f8912e")
+	)
+	(wire
+		(pts
 			(xy 326.39 114.3) (xy 332.74 114.3)
 		)
 		(stroke
@@ -5791,7 +5702,7 @@
 	)
 	(wire
 		(pts
-			(xy 185.42 210.82) (xy 185.42 215.9)
+			(xy 185.42 201.93) (xy 185.42 205.74)
 		)
 		(stroke
 			(width 0)
@@ -5821,7 +5732,7 @@
 	)
 	(wire
 		(pts
-			(xy 128.27 46.99) (xy 128.27 43.18)
+			(xy 137.16 46.99) (xy 137.16 41.91)
 		)
 		(stroke
 			(width 0)
@@ -6361,16 +6272,6 @@
 	)
 	(wire
 		(pts
-			(xy 128.27 46.99) (xy 137.16 46.99)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "d31a2d6a-a000-47a6-8ee6-11e5961bd8b7")
-	)
-	(wire
-		(pts
 			(xy 165.1 119.38) (xy 158.75 119.38)
 		)
 		(stroke
@@ -6398,6 +6299,16 @@
 			(type default)
 		)
 		(uuid "d594038e-0a37-45a3-88b6-3b90243d595c")
+	)
+	(wire
+		(pts
+			(xy 191.77 205.74) (xy 185.42 205.74)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "d64d53f1-82d1-4727-b5a6-276e2863fc39")
 	)
 	(wire
 		(pts
@@ -8925,6 +8836,29 @@
 			)
 		)
 	)
+	(global_label "5V"
+		(shape input)
+		(at 191.77 205.74 0)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+				(color 255 0 0 1)
+			)
+			(justify left)
+		)
+		(uuid "eedb6bfc-701c-4409-9eb1-c64be21cb885")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 197.0533 205.74 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+	)
 	(global_label "P_4"
 		(shape input)
 		(at 158.75 111.76 180)
@@ -9214,7 +9148,7 @@
 	)
 	(symbol
 		(lib_id "Device:Antenna")
-		(at 128.27 38.1 0)
+		(at 137.16 36.83 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -9222,7 +9156,7 @@
 		(dnp no)
 		(uuid "02ddb08c-e269-4739-bafc-44fab614a16c")
 		(property "Reference" "AE1"
-			(at 122.174 36.068 0)
+			(at 131.064 34.798 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -9231,7 +9165,7 @@
 			)
 		)
 		(property "Value" "Antenna"
-			(at 119.38 38.354 0)
+			(at 128.27 37.084 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -9240,7 +9174,7 @@
 			)
 		)
 		(property "Footprint" "RF_Antenna:Texas_SWRA117D_2.4GHz_Right"
-			(at 128.27 38.1 0)
+			(at 137.16 36.83 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -9249,7 +9183,7 @@
 			)
 		)
 		(property "Datasheet" "~"
-			(at 128.27 38.1 0)
+			(at 137.16 36.83 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -9258,7 +9192,7 @@
 			)
 		)
 		(property "Description" "Antenna"
-			(at 128.27 38.1 0)
+			(at 137.16 36.83 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -10289,7 +10223,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" ""
+		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
 			(at 215.9 223.52 0)
 			(effects
 				(font
@@ -10642,73 +10576,6 @@
 			(project "IOT-Mess-P20"
 				(path "/ab2cc265-7ef1-48af-b7c5-4cd6db1bae75"
 					(reference "U6")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "Connector:TestPoint")
-		(at 137.16 43.18 0)
-		(mirror y)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(uuid "6487af81-ed39-43ad-8505-f27c1365fda8")
-		(property "Reference" "TP3"
-			(at 141.732 39.878 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Value" "TestPoint"
-			(at 144.272 37.338 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Footprint" ""
-			(at 132.08 43.18 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "~"
-			(at 132.08 43.18 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "test point"
-			(at 137.16 43.18 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "81d5d0d0-f13b-470b-872b-e0ddf747a214")
-		)
-		(instances
-			(project "IOT-Mess-P20"
-				(path "/ab2cc265-7ef1-48af-b7c5-4cd6db1bae75"
-					(reference "TP3")
 					(unit 1)
 				)
 			)
@@ -11606,7 +11473,16 @@
 				(hide yes)
 			)
 		)
-		(property "Description" ""
+		(property "Description" "Light emitting diode"
+			(at 207.01 215.9 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Sim.Pins" "1=K 2=A"
 			(at 207.01 215.9 0)
 			(effects
 				(font
@@ -11769,7 +11645,7 @@
 	)
 	(symbol
 		(lib_id "power:+3.3V")
-		(at 185.42 210.82 0)
+		(at 185.42 201.93 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -11778,7 +11654,7 @@
 		(fields_autoplaced yes)
 		(uuid "a79c57a6-3c1d-4247-9851-35f8f644b24a")
 		(property "Reference" "#PWR01"
-			(at 185.42 214.63 0)
+			(at 185.42 205.74 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -11787,7 +11663,7 @@
 			)
 		)
 		(property "Value" "+3.3V"
-			(at 185.42 205.74 0)
+			(at 185.42 196.85 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -11795,7 +11671,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 185.42 210.82 0)
+			(at 185.42 201.93 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -11804,7 +11680,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 185.42 210.82 0)
+			(at 185.42 201.93 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -11813,7 +11689,7 @@
 			)
 		)
 		(property "Description" "Power symbol creates a global label with name \"+3.3V\""
-			(at 185.42 210.82 0)
+			(at 185.42 201.93 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -11967,7 +11843,7 @@
 		(pin "20"
 			(uuid "e6037fb3-a844-43d2-8333-362adeb7e8d7")
 		)
-		(pin "0"
+		(pin "21"
 			(uuid "9d4d0df9-eba0-4bcd-8d04-0d87968cc5e6")
 		)
 		(pin "2"

@@ -793,8 +793,8 @@
 			(exclude_from_sim no)
 			(in_bom yes)
 			(on_board yes)
-			(property "Reference" "J5"
-				(at 0.635 10.16 0)
+			(property "Reference" "J"
+				(at 0 7.62 0)
 				(effects
 					(font
 						(size 1.27 1.27)
@@ -802,14 +802,14 @@
 				)
 			)
 			(property "Value" "Conn_01x05_Pin"
-				(at 0.635 7.62 0)
+				(at 0 -7.62 0)
 				(effects
 					(font
 						(size 1.27 1.27)
 					)
 				)
 			)
-			(property "Footprint" "Connector_PinHeader_2.54mm:PinHeader_1x05_P2.54mm_Vertical"
+			(property "Footprint" ""
 				(at 0 0 0)
 				(effects
 					(font
@@ -988,7 +988,7 @@
 							)
 						)
 					)
-					(number "5V"
+					(number "1"
 						(effects
 							(font
 								(size 1.27 1.27)
@@ -1006,7 +1006,7 @@
 							)
 						)
 					)
-					(number "G"
+					(number "2"
 						(effects
 							(font
 								(size 1.27 1.27)
@@ -1024,7 +1024,7 @@
 							)
 						)
 					)
-					(number "3V"
+					(number "3"
 						(effects
 							(font
 								(size 1.27 1.27)
@@ -1042,7 +1042,7 @@
 							)
 						)
 					)
-					(number "D-"
+					(number "4"
 						(effects
 							(font
 								(size 1.27 1.27)
@@ -1053,14 +1053,14 @@
 				(pin passive line
 					(at 5.08 -5.08 180)
 					(length 3.81)
-					(name "D+"
+					(name "Pin_5"
 						(effects
 							(font
 								(size 1.27 1.27)
 							)
 						)
 					)
-					(number "D+"
+					(number "5"
 						(effects
 							(font
 								(size 1.27 1.27)
@@ -3245,6 +3245,7 @@
 					(font
 						(size 1.27 1.27)
 					)
+					(hide yes)
 				)
 			)
 			(property "Value" ""
@@ -3304,7 +3305,7 @@
 						)
 					)
 				)
-				(pin bidirectional line
+				(pin input line
 					(at -34.29 17.78 0)
 					(length 3.81)
 					(name "VSS"
@@ -4258,7 +4259,7 @@
 						)
 					)
 				)
-				(pin bidirectional line
+				(pin input line
 					(at -34.29 17.78 0)
 					(length 3.81)
 					(name "VSS"
@@ -7417,6 +7418,16 @@
 	)
 	(wire
 		(pts
+			(xy 173.99 217.17) (xy 162.56 217.17)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "85dfa241-3df8-4035-8fd4-8d75e289df46")
+	)
+	(wire
+		(pts
 			(xy 227.33 63.5) (xy 227.33 69.85)
 		)
 		(stroke
@@ -7524,6 +7535,16 @@
 			(type default)
 		)
 		(uuid "958be5e9-8c35-4d3a-94e9-e3bbc2645e1d")
+	)
+	(wire
+		(pts
+			(xy 173.99 212.09) (xy 173.99 217.17)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "95996b8e-6220-4fbf-b81e-e6f1414f8a6e")
 	)
 	(wire
 		(pts
@@ -14850,6 +14871,72 @@
 		)
 	)
 	(symbol
+		(lib_id "power:PWR_FLAG")
+		(at 173.99 212.09 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "b1d06bb6-5e1a-4945-9b4b-f05cf0002cf8")
+		(property "Reference" "#FLG06"
+			(at 173.99 210.185 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "PWR_FLAG"
+			(at 173.99 207.01 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 173.99 212.09 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 173.99 212.09 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Special symbol for telling ERC where power comes from"
+			(at 173.99 212.09 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "101d3cb3-5fed-45a9-aab8-22c4e8f49193")
+		)
+		(instances
+			(project "IOT-Mess-P48"
+				(path "/e8b1b29c-6130-44f1-99c5-074e206e80b8"
+					(reference "#FLG06")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "Connector_Generic:Conn_02x19_Odd_Even")
 		(at 365.76 217.17 0)
 		(unit 1)
@@ -15706,19 +15793,19 @@
 				(hide yes)
 			)
 		)
-		(pin "D+"
+		(pin "3"
 			(uuid "d33064b7-1b0f-4f0e-807b-954d6c062eab")
 		)
-		(pin "D-"
+		(pin "5"
 			(uuid "39b049a1-9eae-4d52-a5ef-a9d0ca8fd44a")
 		)
-		(pin "3V"
+		(pin "1"
 			(uuid "a8c96eb9-e5d8-4f78-8667-79f20af11e8f")
 		)
-		(pin "5V"
+		(pin "2"
 			(uuid "6428510e-6d2e-40a3-bd00-928408972f8a")
 		)
-		(pin "G"
+		(pin "4"
 			(uuid "91e368dd-2aa7-4ae2-8c03-350603ee5fea")
 		)
 		(instances
