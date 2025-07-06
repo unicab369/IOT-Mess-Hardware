@@ -1322,7 +1322,7 @@
 			(pinfunction "GND")
 			(pintype "passive")
 			(zone_connect 2)
-			(uuid "e1ac821d-b685-4342-80a5-5433a496583e")
+			(uuid "b34a6732-1cb2-4b86-a1f5-12fac38564aa")
 		)
 		(pad "49" smd rect
 			(at 1.975 -1.975)
@@ -1333,7 +1333,7 @@
 			(pinfunction "GND")
 			(pintype "passive")
 			(zone_connect 2)
-			(uuid "e1ac821d-b685-4342-80a5-5433a496583e")
+			(uuid "4154aacd-92b0-40bd-ab19-3f836e08a4bf")
 		)
 		(pad "49" smd rect
 			(at 1.975 0)
@@ -1344,7 +1344,7 @@
 			(pinfunction "GND")
 			(pintype "passive")
 			(zone_connect 2)
-			(uuid "e1ac821d-b685-4342-80a5-5433a496583e")
+			(uuid "3251f704-d07d-4185-a616-b3318a72fdf1")
 		)
 		(pad "49" smd rect
 			(at 1.975 1.975)
@@ -1355,7 +1355,7 @@
 			(pinfunction "GND")
 			(pintype "passive")
 			(zone_connect 2)
-			(uuid "e1ac821d-b685-4342-80a5-5433a496583e")
+			(uuid "c3e64c12-7f5c-4499-b3a1-396b03c83ffb")
 		)
 		(pad "50" smd rect
 			(at 5.95 -4.95)
