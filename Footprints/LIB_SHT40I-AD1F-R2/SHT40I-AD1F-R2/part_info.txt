@@ -1,0 +1,9 @@
+Manufacturer=Sensirion
+PartNumber=SHT40I-AD1F-R2
+PartCategory=Integrated Circuit
+PackageCategory=Small Outline No-lead
+PinCount=5
+Version=1.1
+Released=2024-01-11 09:24:25
+Downloaded=2025-07-30 16:11:06
+3D=Y

@@ -1,0 +1,13 @@
+(unit MM)
+
+(package "SHT40I-AD1F-R2"
+    (type UNDEF)
+    (uver 2)
+    (cuser "SamacSys")
+    (uuser "SamacSys")
+    (utime 2024-01-11-09:24:25)
+    (mountForm default
+        (footprintRef "SON80P150X150X59-5N")
+        (spec "System")
+    )
+)

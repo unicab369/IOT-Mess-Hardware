@@ -1,0 +1,16 @@
+.SHT40I-AD1F-R2 :1 ;Board Mount Humidity Sensors Digital Industrial Humidity and Temperature Sensor incl Filter Membrane
+SON80P150X150X59-5N
+*STM IC
+*NGS
+*PLB 1="SDA" 2="SCL" 3="VDD" 4="VSS" 5="EP"
+*MXP 5
+*DFN SHT40I-AD1F-R2
+~!Mouser Part Number (403-SHT40I-AD1F-R2)
+~!Link Mouser Price/Stock (https://www.mouser.co.uk/ProductDetail/Sensirion/SHT40I-AD1F-R2?qs=rQFj71Wb1eVYLTRlLwJKVQ%3D%3D)
+~!Manufacturer_Name (Sensirion)
+~!Manufacturer_Part_Number (SHT40I-AD1F-R2)
+~!Link Datasheet (https://sensirion.com/media/documents/1D662E57/64D3B086/Sensirion_Datasheet_SHT4xI-Digital.pdf)
+~!Height (0.59mm)
+~!3D_Model (SHT40I-AD1F-R2)
+SHT40I-AD1F-R2
+1.1!U 2.1!U 5.1!U 4.1!U 3.1!U 

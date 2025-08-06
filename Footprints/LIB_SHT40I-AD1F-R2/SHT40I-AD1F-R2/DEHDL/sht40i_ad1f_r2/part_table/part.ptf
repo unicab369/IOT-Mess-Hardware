@@ -1,0 +1,11 @@
+FILE_TYPE = MULTI_PHYS_TABLE;
+
+PART 'SHT40I_AD1F_R2'
+CLASS = IC
+{========================================================================================}
+:"MANUFACTURER_NAME", "MANUFACTURER_PART_NUMBER"= "PART_NUMBER", "JEDEC_TYPE", "PACK_TYPE", "MOUSER_PART_NUMBER", "MOUSER_PRICE/STOCK", "DESCRIPTION", "DATASHEET", "HEIGHT";
+{========================================================================================}
+ "Sensirion", "SHT40I-AD1F-R2" (!) = "", "SON80P150X150X59-5N", "Small Outline No-lead", "403-SHT40I-AD1F-R2", "https://www.mouser.co.uk/ProductDetail/Sensirion/SHT40I-AD1F-R2?qs=rQFj71Wb1eVYLTRlLwJKVQ%3D%3D", "Board Mount Humidity Sensors Digital Industrial Humidity and Temperature Sensor incl Filter Membrane", "https://sensirion.com/media/documents/1D662E57/64D3B086/Sensirion_Datasheet_SHT4xI-Digital.pdf", "0.59 mm"
+END_PART
+
+END.

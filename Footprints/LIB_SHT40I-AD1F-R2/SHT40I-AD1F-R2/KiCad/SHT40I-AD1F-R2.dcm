@@ -1,0 +1,9 @@
+EESchema-DOCLIB  Version 2.0
+#
+$CMP SHT40I-AD1F-R2
+D Board Mount Humidity Sensors Digital Industrial Humidity and Temperature Sensor incl Filter Membrane
+K
+F https://sensirion.com/media/documents/1D662E57/64D3B086/Sensirion_Datasheet_SHT4xI-Digital.pdf
+$ENDCMP
+#
+#End Doc Library
