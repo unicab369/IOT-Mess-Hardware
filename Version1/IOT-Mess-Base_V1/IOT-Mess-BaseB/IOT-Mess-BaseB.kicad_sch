@@ -7539,28 +7539,6 @@
 					)
 				)
 				(rectangle
-					(start -1.27 -12.573)
-					(end 0 -12.827)
-					(stroke
-						(width 0.1524)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(rectangle
-					(start -1.27 -15.113)
-					(end 0 -15.367)
-					(stroke
-						(width 0.1524)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(rectangle
 					(start 3.81 10.287)
 					(end 2.54 10.033)
 					(stroke
@@ -7814,42 +7792,6 @@
 						)
 					)
 					(number "8"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin passive line
-					(at -5.08 -12.7 0)
-					(length 3.81)
-					(name "Pin_1"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "27"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin passive line
-					(at -5.08 -15.24 0)
-					(length 3.81)
-					(name "Pin_2"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "26"
 						(effects
 							(font
 								(size 1.27 1.27)
@@ -9661,16 +9603,6 @@
 	)
 	(wire
 		(pts
-			(xy 118.11 81.28) (xy 111.76 81.28)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "3f286819-2596-4cd4-88d5-3bc6106cc4cd")
-	)
-	(wire
-		(pts
 			(xy 344.17 96.52) (xy 344.17 102.87)
 		)
 		(stroke
@@ -10278,16 +10210,6 @@
 			(type default)
 		)
 		(uuid "793df467-32b9-4029-a9b3-de49e4e74285")
-	)
-	(wire
-		(pts
-			(xy 118.11 78.74) (xy 111.76 78.74)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "7a00f8a0-851b-42cd-a4be-6be44ba18884")
 	)
 	(wire
 		(pts
@@ -12951,31 +12873,6 @@
 			)
 		)
 	)
-	(global_label "LSW1"
-		(shape input)
-		(at 111.76 78.74 180)
-		(fields_autoplaced yes)
-		(effects
-			(font
-				(size 1.27 1.27)
-				(thickness 0.254)
-				(bold yes)
-				(color 0 0 255 1)
-			)
-			(justify right)
-		)
-		(uuid "650632ac-48bb-4c69-9a58-b076d14aa487")
-		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 103.4003 78.74 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify right)
-				(hide yes)
-			)
-		)
-	)
 	(global_label "SDA_0"
 		(shape input)
 		(at 289.56 204.47 0)
@@ -14991,31 +14888,6 @@
 					(size 1.27 1.27)
 				)
 				(justify left)
-				(hide yes)
-			)
-		)
-	)
-	(global_label "LSW0"
-		(shape input)
-		(at 111.76 81.28 180)
-		(fields_autoplaced yes)
-		(effects
-			(font
-				(size 1.27 1.27)
-				(thickness 0.254)
-				(bold yes)
-				(color 0 0 255 1)
-			)
-			(justify right)
-		)
-		(uuid "f5323c55-9300-4b43-9136-be8eab30d480")
-		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 103.8763 81.28 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify right)
 				(hide yes)
 			)
 		)
@@ -17621,12 +17493,6 @@
 		)
 		(pin "2"
 			(uuid "58753d0c-26b8-4de3-bb5f-ad2963dd97ef")
-		)
-		(pin "27"
-			(uuid "87ca2a0a-f720-48f9-98d7-d397dffa6ecd")
-		)
-		(pin "26"
-			(uuid "bf198977-7405-410d-9411-04e18c87cf31")
 		)
 		(instances
 			(project "IOT-Mess-BaseB"
