@@ -48,7 +48,7 @@
         "silk_text_thickness": 0.1,
         "silk_text_upright": false,
         "zones": {
-          "min_clearance": 0.5
+          "min_clearance": 0.25
         }
       },
       "diff_pair_dimensions": [
@@ -58,7 +58,12 @@
           "width": 0.0
         }
       ],
-      "drc_exclusions": [],
+      "drc_exclusions": [
+        [
+          "courtyards_overlap|131515000|91455000|02fed10e-a20c-4520-95ef-4667e3881b24|b199cd57-dff2-48ba-a38f-88f7410722d7",
+          ""
+        ]
+      ],
       "meta": {
         "version": 2
       },
@@ -188,8 +193,11 @@
       ],
       "track_widths": [
         0.0,
+        0.25,
         0.3,
-        0.5
+        0.4,
+        0.5,
+        1.0
       ],
       "tuning_pattern_settings": {
         "diff_pair_defaults": {
@@ -465,7 +473,7 @@
     "pinned_symbol_libs": []
   },
   "meta": {
-    "filename": "LED-Matrix.kicad_pro",
+    "filename": "PWR-Switching.kicad_pro",
     "version": 3
   },
   "net_settings": {
@@ -611,14 +619,6 @@
       "version": 1
     },
     "net_format_name": "",
-    "ngspice": {
-      "fix_include_paths": true,
-      "meta": {
-        "version": 0
-      },
-      "model_mode": 4,
-      "workbook_filename": ""
-    },
     "page_layout_descr_file": "",
     "plot_directory": "",
     "space_save_all_events": true,
@@ -633,7 +633,7 @@
   },
   "sheets": [
     [
-      "593263c3-8ec1-40df-a7cc-43f88afd5649",
+      "fee71fbb-5e5a-4db4-9bb9-d361f41e5c98",
       "Root"
     ]
   ],
