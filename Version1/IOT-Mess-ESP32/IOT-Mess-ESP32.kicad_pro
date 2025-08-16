@@ -48,7 +48,7 @@
         "silk_text_thickness": 0.1,
         "silk_text_upright": false,
         "zones": {
-          "min_clearance": 0.2
+          "min_clearance": 0.25
         }
       },
       "diff_pair_dimensions": [
@@ -69,6 +69,18 @@
         ],
         [
           "courtyards_overlap|91464000|76785000|01e8cc8b-c3e2-4baa-ac82-4fa2745b042d|0219de71-14cd-4429-acf6-a9f3942387fe",
+          ""
+        ],
+        [
+          "lib_footprint_mismatch|105929000|73785002|0219de71-14cd-4429-acf6-a9f3942387fe|00000000-0000-0000-0000-000000000000",
+          ""
+        ],
+        [
+          "lib_footprint_mismatch|105929000|83770002|ff9b26b2-065d-45d4-ad3d-e046f325d986|00000000-0000-0000-0000-000000000000",
+          ""
+        ],
+        [
+          "lib_footprint_mismatch|105954000|79335002|62dc3799-b30a-4e42-81f0-47c00eccd9b7|00000000-0000-0000-0000-000000000000",
           ""
         ]
       ],
@@ -201,8 +213,12 @@
       ],
       "track_widths": [
         0.0,
+        0.3,
+        0.4,
         0.5,
-        0.8
+        0.8,
+        1.0,
+        2.0
       ],
       "tuning_pattern_settings": {
         "diff_pair_defaults": {
