@@ -13,7 +13,7 @@
       "shapes": 1.0,
       "tracks": 1.0,
       "vias": 1.0,
-      "zones": 0.44999998807907104
+      "zones": 0.49000000953674316
     },
     "selection_filter": {
       "dimensions": true,
@@ -45,11 +45,12 @@
       "pads",
       "zones",
       "drc_warnings",
+      "drc_exclusions",
       "locked_item_shadows",
       "conflict_shadows",
       "shapes"
     ],
-    "visible_layers": "ffffffff_ffffffff_fffffff5_ffffffdf",
+    "visible_layers": "00000000_00000000_55555555_575755d5",
     "zone_display_mode": 0
   },
   "git": {
@@ -58,7 +59,7 @@
     "ssh_key": ""
   },
   "meta": {
-    "filename": "PWR-Switching.kicad_prl",
+    "filename": "PWR-Sleep.kicad_prl",
     "version": 5
   },
   "net_inspector_panel": {

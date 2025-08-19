@@ -81516,11 +81516,11 @@
 	(dimension
 		(type orthogonal)
 		(layer "Dwgs.User")
-		(uuid "24000332-8ea7-465d-98e1-b381505be569")
+		(uuid "faa2effe-5eaf-4479-b618-95598262b8f1")
 		(pts
-			(xy 178.9 46.4) (xy 178.9 146.4)
+			(xy 129.4 146.4) (xy 129.4 46.4)
 		)
-		(height 14.6)
+		(height -12.2)
 		(orientation 1)
 		(format
 			(prefix "")
@@ -81540,9 +81540,9 @@
 			(keep_text_aligned yes)
 		)
 		(gr_text "100"
-			(at 192.35 96.4 90)
+			(at 116.05 96.4 90)
 			(layer "Dwgs.User")
-			(uuid "24000332-8ea7-465d-98e1-b381505be569")
+			(uuid "faa2effe-5eaf-4479-b618-95598262b8f1")
 			(effects
 				(font
 					(size 1 1)
