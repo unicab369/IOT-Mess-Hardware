@@ -1,0 +1,218 @@
+
+(kicad_symbol_lib (version 20211014) (generator kicad_symbol_editor)
+  (symbol "YC124-JR-074K7L" (pin_names (offset 1.016)) (in_bom yes) (on_board yes)
+    (property "Reference" "RN" (id 0) (at -4.83419 10.6862 0)
+      (effects (font (size 1.27 1.27)) (justify bottom left))
+    )
+    (property "Value" "YC124-JR-074K7L" (id 1) (at -5.09592 -12.7398 0)
+      (effects (font (size 1.27 1.27)) (justify bottom left))
+    )
+    (property "Footprint" "YC124-JR-074K7L:RESCAXS50P200X100X55-8N" (id 2) (at 0 0 0)
+      (effects (font (size 1.27 1.27)) (justify bottom) hide)
+    )
+    (property "MF" "Yageo" (id 4) (at 0 0 0)
+      (effects (font (size 1.27 1.27)) (justify bottom) hide)
+    )
+    (property "MOUSER-PURCHASE-URL" "https://snapeda.com/shop?store=Mouser&id=1383743" (id 5) (at 0 0 0)
+      (effects (font (size 1.27 1.27)) (justify bottom) hide)
+    )
+    (property "DESCRIPTION" "YC124 Series 0402 10 KO SMD Array Chip Resistor" (id 6) (at 0 0 0)
+      (effects (font (size 1.27 1.27)) (justify bottom) hide)
+    )
+    (property "PACKAGE" "0402 Yageo" (id 7) (at 0 0 0)
+      (effects (font (size 1.27 1.27)) (justify bottom) hide)
+    )
+    (property "PRICE" "None" (id 8) (at 0 0 0)
+      (effects (font (size 1.27 1.27)) (justify bottom) hide)
+    )
+    (property "Package" "SMD-8 Yageo" (id 9) (at 0 0 0)
+      (effects (font (size 1.27 1.27)) (justify bottom) hide)
+    )
+    (property "Check_prices" "https://www.snapeda.com/parts/YC124-JR-074K7L/Yageo/view-part/?ref=eda" (id 10) (at 0 0 0)
+      (effects (font (size 1.27 1.27)) (justify bottom) hide)
+    )
+    (property "Price" "None" (id 11) (at 0 0 0)
+      (effects (font (size 1.27 1.27)) (justify bottom) hide)
+    )
+    (property "SnapEDA_Link" "https://www.snapeda.com/parts/YC124-JR-074K7L/Yageo/view-part/?ref=snap" (id 12) (at 0 0 0)
+      (effects (font (size 1.27 1.27)) (justify bottom) hide)
+    )
+    (property "MP" "YC124-JR-074K7L" (id 13) (at 0 0 0)
+      (effects (font (size 1.27 1.27)) (justify bottom) hide)
+    )
+    (property "Availability" "In Stock" (id 14) (at 0 0 0)
+      (effects (font (size 1.27 1.27)) (justify bottom) hide)
+    )
+    (property "AVAILABILITY" "Warning" (id 15) (at 0 0 0)
+      (effects (font (size 1.27 1.27)) (justify bottom) hide)
+    )
+    (property "Description" "\n                        \n                            4.7k Ohm ±5% 62.5mW Power Per Element Isolated 4 Resistor Network/Array ±200ppm/°C 0804, Convex, Long Side Terminals\n                        \n" (id 16) (at 0 0 0)
+      (effects (font (size 1.27 1.27)) (justify bottom) hide)
+    )
+    (symbol "YC124-JR-074K7L_0_0"
+      (polyline
+        (pts (xy -5.08 7.62) (xy -3.556 7.62)) (stroke (width 0.254))
+      )
+      (polyline
+        (pts (xy -3.556 7.62) (xy -2.54 8.89)) (stroke (width 0.254))
+      )
+      (polyline
+        (pts (xy -2.54 8.89) (xy -1.27 6.35)) (stroke (width 0.254))
+      )
+      (polyline
+        (pts (xy -1.27 6.35) (xy 0.0 8.89)) (stroke (width 0.254))
+      )
+      (polyline
+        (pts (xy 0.0 8.89) (xy 1.27 6.35)) (stroke (width 0.254))
+      )
+      (polyline
+        (pts (xy 1.27 6.35) (xy 2.54 8.89)) (stroke (width 0.254))
+      )
+      (polyline
+        (pts (xy 2.54 8.89) (xy 3.302 7.62)) (stroke (width 0.254))
+      )
+      (polyline
+        (pts (xy 3.302 7.62) (xy 5.08 7.62)) (stroke (width 0.254))
+      )
+      (polyline
+        (pts (xy -5.08 2.54) (xy -3.556 2.54)) (stroke (width 0.254))
+      )
+      (polyline
+        (pts (xy -3.556 2.54) (xy -2.54 3.81)) (stroke (width 0.254))
+      )
+      (polyline
+        (pts (xy -2.54 3.81) (xy -1.27 1.27)) (stroke (width 0.254))
+      )
+      (polyline
+        (pts (xy -1.27 1.27) (xy 0.0 3.81)) (stroke (width 0.254))
+      )
+      (polyline
+        (pts (xy 0.0 3.81) (xy 1.27 1.27)) (stroke (width 0.254))
+      )
+      (polyline
+        (pts (xy 1.27 1.27) (xy 2.54 3.81)) (stroke (width 0.254))
+      )
+      (polyline
+        (pts (xy 2.54 3.81) (xy 3.302 2.54)) (stroke (width 0.254))
+      )
+      (polyline
+        (pts (xy 3.302 2.54) (xy 5.08 2.54)) (stroke (width 0.254))
+      )
+      (polyline
+        (pts (xy -5.08 -2.54) (xy -3.556 -2.54)) (stroke (width 0.254))
+      )
+      (polyline
+        (pts (xy -3.556 -2.54) (xy -2.54 -1.27)) (stroke (width 0.254))
+      )
+      (polyline
+        (pts (xy -2.54 -1.27) (xy -1.27 -3.81)) (stroke (width 0.254))
+      )
+      (polyline
+        (pts (xy -1.27 -3.81) (xy 0.0 -1.27)) (stroke (width 0.254))
+      )
+      (polyline
+        (pts (xy 0.0 -1.27) (xy 1.27 -3.81)) (stroke (width 0.254))
+      )
+      (polyline
+        (pts (xy 1.27 -3.81) (xy 2.54 -1.27)) (stroke (width 0.254))
+      )
+      (polyline
+        (pts (xy 2.54 -1.27) (xy 3.302 -2.54)) (stroke (width 0.254))
+      )
+      (polyline
+        (pts (xy 3.302 -2.54) (xy 5.08 -2.54)) (stroke (width 0.254))
+      )
+      (polyline
+        (pts (xy -5.08 -7.62) (xy -3.556 -7.62)) (stroke (width 0.254))
+      )
+      (polyline
+        (pts (xy -3.556 -7.62) (xy -2.54 -6.35)) (stroke (width 0.254))
+      )
+      (polyline
+        (pts (xy -2.54 -6.35) (xy -1.27 -8.89)) (stroke (width 0.254))
+      )
+      (polyline
+        (pts (xy -1.27 -8.89) (xy 0.0 -6.35)) (stroke (width 0.254))
+      )
+      (polyline
+        (pts (xy 0.0 -6.35) (xy 1.27 -8.89)) (stroke (width 0.254))
+      )
+      (polyline
+        (pts (xy 1.27 -8.89) (xy 2.54 -6.35)) (stroke (width 0.254))
+      )
+      (polyline
+        (pts (xy 2.54 -6.35) (xy 3.302 -7.62)) (stroke (width 0.254))
+      )
+      (polyline
+        (pts (xy 3.302 -7.62) (xy 5.08 -7.62)) (stroke (width 0.254))
+      )
+      (rectangle (start -5.08 -10.16) (end 5.08 10.16)
+        (stroke (width 0.254)) (fill (type background))
+      )
+      (pin passive line (at -7.62 2.54 0) (length 2.54)
+        (name "~"
+          (effects (font (size 1.016 1.016)))
+        )
+        (number "2"
+          (effects (font (size 1.016 1.016)))
+        )
+      )
+      (pin passive line (at -7.62 7.62 0) (length 2.54)
+        (name "~"
+          (effects (font (size 1.016 1.016)))
+        )
+        (number "1"
+          (effects (font (size 1.016 1.016)))
+        )
+      )
+      (pin passive line (at -7.62 -2.54 0) (length 2.54)
+        (name "~"
+          (effects (font (size 1.016 1.016)))
+        )
+        (number "3"
+          (effects (font (size 1.016 1.016)))
+        )
+      )
+      (pin passive line (at -7.62 -7.62 0) (length 2.54)
+        (name "~"
+          (effects (font (size 1.016 1.016)))
+        )
+        (number "4"
+          (effects (font (size 1.016 1.016)))
+        )
+      )
+      (pin passive line (at 7.62 -7.62 180.0) (length 2.54)
+        (name "~"
+          (effects (font (size 1.016 1.016)))
+        )
+        (number "5"
+          (effects (font (size 1.016 1.016)))
+        )
+      )
+      (pin passive line (at 7.62 -2.54 180.0) (length 2.54)
+        (name "~"
+          (effects (font (size 1.016 1.016)))
+        )
+        (number "6"
+          (effects (font (size 1.016 1.016)))
+        )
+      )
+      (pin passive line (at 7.62 2.54 180.0) (length 2.54)
+        (name "~"
+          (effects (font (size 1.016 1.016)))
+        )
+        (number "7"
+          (effects (font (size 1.016 1.016)))
+        )
+      )
+      (pin passive line (at 7.62 7.62 180.0) (length 2.54)
+        (name "~"
+          (effects (font (size 1.016 1.016)))
+        )
+        (number "8"
+          (effects (font (size 1.016 1.016)))
+        )
+      )
+    )
+  )
+)
