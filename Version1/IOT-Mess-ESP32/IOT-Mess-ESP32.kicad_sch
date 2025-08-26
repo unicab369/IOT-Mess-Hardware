@@ -6436,6 +6436,12 @@
 		(uuid "bd7a251a-c3b7-4c50-8fc8-214b87063e74")
 	)
 	(junction
+		(at 185.42 222.25)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "c1073e39-9d05-41a8-b4b0-903d3c92ab63")
+	)
+	(junction
 		(at 109.22 203.2)
 		(diameter 0)
 		(color 0 0 0 0)
@@ -7147,7 +7153,7 @@
 	)
 	(wire
 		(pts
-			(xy 153.67 222.25) (xy 153.67 226.06)
+			(xy 185.42 222.25) (xy 185.42 226.06)
 		)
 		(stroke
 			(width 0)
@@ -15115,7 +15121,7 @@
 	)
 	(symbol
 		(lib_id "Device:C")
-		(at 153.67 229.87 0)
+		(at 185.42 229.87 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -15124,7 +15130,7 @@
 		(fields_autoplaced yes)
 		(uuid "ce3d8184-3451-4227-90d6-a06b2344635d")
 		(property "Reference" "C4"
-			(at 156.845 228.6 0)
+			(at 188.595 228.6 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -15133,7 +15139,7 @@
 			)
 		)
 		(property "Value" "1u"
-			(at 156.845 231.14 0)
+			(at 188.595 231.14 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -15142,7 +15148,7 @@
 			)
 		)
 		(property "Footprint" "Capacitor_SMD:C_0603_1608Metric"
-			(at 154.6352 233.68 0)
+			(at 186.3852 233.68 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -15151,7 +15157,7 @@
 			)
 		)
 		(property "Datasheet" "~"
-			(at 153.67 229.87 0)
+			(at 185.42 229.87 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -15160,7 +15166,7 @@
 			)
 		)
 		(property "Description" ""
-			(at 153.67 229.87 0)
+			(at 185.42 229.87 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -15186,7 +15192,7 @@
 	(symbol
 		(lib_name "GND_1")
 		(lib_id "power:GND")
-		(at 153.67 233.68 0)
+		(at 185.42 233.68 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -15195,7 +15201,7 @@
 		(fields_autoplaced yes)
 		(uuid "cfb224b7-cb56-4906-8f26-fed8226f8858")
 		(property "Reference" "#PWR015"
-			(at 153.67 240.03 0)
+			(at 185.42 240.03 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -15204,7 +15210,7 @@
 			)
 		)
 		(property "Value" "GND"
-			(at 153.67 238.76 0)
+			(at 185.42 238.76 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -15212,7 +15218,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 153.67 233.68 0)
+			(at 185.42 233.68 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -15221,7 +15227,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 153.67 233.68 0)
+			(at 185.42 233.68 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -15230,7 +15236,7 @@
 			)
 		)
 		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
-			(at 153.67 233.68 0)
+			(at 185.42 233.68 0)
 			(effects
 				(font
 					(size 1.27 1.27)

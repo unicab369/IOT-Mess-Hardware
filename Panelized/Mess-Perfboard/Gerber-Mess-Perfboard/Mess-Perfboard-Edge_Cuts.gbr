@@ -1,0 +1,29 @@
+%TF.GenerationSoftware,KiCad,Pcbnew,9.0.3*%
+%TF.CreationDate,2025-08-20T13:04:33-04:00*%
+%TF.ProjectId,Mess-Perfboard,4d657373-2d50-4657-9266-626f6172642e,rev?*%
+%TF.SameCoordinates,Original*%
+%TF.FileFunction,Profile,NP*%
+%FSLAX46Y46*%
+G04 Gerber Fmt 4.6, Leading zero omitted, Abs format (unit mm)*
+G04 Created by KiCad (PCBNEW 9.0.3) date 2025-08-20 13:04:33*
+%MOMM*%
+%LPD*%
+G01*
+G04 APERTURE LIST*
+%TA.AperFunction,Profile*%
+%ADD10C,0.050000*%
+%TD*%
+%TA.AperFunction,Profile*%
+%ADD11C,1.000000*%
+%TD*%
+G04 APERTURE END LIST*
+D10*
+X72100000Y-49300000D02*
+X171200000Y-49300000D01*
+X171200000Y-148900000D01*
+X72100000Y-148900000D01*
+X72100000Y-49300000D01*
+D11*
+X121691203Y-49756017D02*
+X121704174Y-148556017D01*
+M02*

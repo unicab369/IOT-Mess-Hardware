@@ -80808,7 +80808,7 @@
 	(footprint "IOT-Mess-Footprints:catIcon8x8"
 		(layer "B.Cu")
 		(uuid "f7188488-1329-418c-835f-233c97b627ff")
-		(at 153.956458 134.382904 180)
+		(at 153.8 132.6 180)
 		(property "Reference" "G***"
 			(at 0 0 0)
 			(layer "B.SilkS")
@@ -81120,8 +81120,8 @@
 			(justify mirror)
 		)
 	)
-	(gr_text "IOT_Mess Charlieplexing LEDs\nV1.2 8/12/25"
-		(at 152.980001 143.275 0)
+	(gr_text "IOT_Mess Charlieplexing2\nV2.0 8/19/25"
+		(at 152.980001 141.492096 0)
 		(layer "B.SilkS")
 		(uuid "0a71a986-b062-4b67-b15c-1e7dfcb2ab50")
 		(effects
