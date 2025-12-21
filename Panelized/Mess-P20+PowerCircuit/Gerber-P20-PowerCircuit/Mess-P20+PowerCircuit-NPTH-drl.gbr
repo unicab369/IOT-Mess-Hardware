@@ -1,0 +1,35 @@
+%TF.GenerationSoftware,KiCad,Pcbnew,9.0.4*%
+%TF.CreationDate,2025-12-21T12:53:01-05:00*%
+%TF.ProjectId,Mess-P20+PowerCircuit,4d657373-2d50-4323-902b-506f77657243,rev?*%
+%TF.SameCoordinates,Original*%
+%TF.FileFunction,NonPlated,1,2,NPTH,Drill*%
+%TF.FilePolarity,Positive*%
+%FSLAX46Y46*%
+G04 Gerber Fmt 4.6, Leading zero omitted, Abs format (unit mm)*
+G04 Created by KiCad (PCBNEW 9.0.4) date 2025-12-21 12:53:01*
+%MOMM*%
+%LPD*%
+G01*
+G04 APERTURE LIST*
+%TA.AperFunction,ComponentDrill*%
+%ADD10C,0.650000*%
+%TD*%
+G04 APERTURE END LIST*
+D10*
+%TO.C,U37*%
+X99708007Y-87337497D03*
+%TO.C,U61*%
+X99708007Y-137900000D03*
+%TO.C,U37*%
+X105488007Y-87337497D03*
+%TO.C,U61*%
+X105488007Y-137900000D03*
+%TO.C,U49*%
+X149708007Y-87337497D03*
+%TO.C,U25*%
+X149708007Y-137900000D03*
+%TO.C,U49*%
+X155488007Y-87337497D03*
+%TO.C,U25*%
+X155488007Y-137900000D03*
+M02*
