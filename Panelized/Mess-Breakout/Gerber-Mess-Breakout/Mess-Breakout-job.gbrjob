@@ -3,9 +3,9 @@
     "GenerationSoftware": {
       "Vendor": "KiCad",
       "Application": "Pcbnew",
-      "Version": "9.0.3"
+      "Version": "9.0.4"
     },
-    "CreationDate": "2025-08-19T22:59:22-04:00"
+    "CreationDate": "2025-12-22T16:43:35-05:00"
   },
   "GeneralSpecs": {
     "ProjectId": {
@@ -14,8 +14,8 @@
       "Revision": "rev?"
     },
     "Size": {
-      "X": 99.925,
-      "Y": 99.55
+      "X": 98.043,
+      "Y": 99.915
     },
     "LayerNumber": 2,
     "BoardThickness": 1.6,
@@ -70,11 +70,6 @@
       "Path": "Mess-Breakout-B_Mask.gbr",
       "FileFunction": "SolderMask,Bot",
       "FilePolarity": "Negative"
-    },
-    {
-      "Path": "Mess-Breakout-User_Drawings.gbr",
-      "FileFunction": "Other,User",
-      "FilePolarity": "Positive"
     },
     {
       "Path": "Mess-Breakout-Edge_Cuts.gbr",
