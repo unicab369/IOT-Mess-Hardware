@@ -7133,6 +7133,16 @@
 		)
 		(uuid ff922f26-dd4f-48cc-aeba-e7df1b3bea61)
 	)
+	(text "ADDR->0x40-0x4F"
+		(exclude_from_sim no)
+		(at 278.892 183.896 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+		)
+		(uuid "04fd8476-5b6b-487f-8e00-197834b9669b")
+	)
 	(text "USB-C POWER"
 		(exclude_from_sim no)
 		(at 183.134 286.512 0)
@@ -7163,6 +7173,56 @@
 		)
 		(uuid "265d4ed2-fb84-43e0-897e-10fda594ee33")
 	)
+	(text "ADDR->GND 0x40\nADDR->VDD 0x41"
+		(exclude_from_sim no)
+		(at 358.648 73.152 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+		)
+		(uuid "3b216a25-bcad-4f33-9f87-7f77cb25b173")
+	)
+	(text "ADDR->GND 0x48\nADDR->VDD 0x49\nADDR->SDA 0x4A\nADDR->SCL 0x4B"
+		(exclude_from_sim no)
+		(at 394.97 156.464 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+		)
+		(uuid "3be361d8-a76b-4491-860d-7617620b8375")
+	)
+	(text "ADDR->0x39"
+		(exclude_from_sim no)
+		(at 277.876 143.002 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+		)
+		(uuid "4cf8d07a-4963-4843-aa9a-c63afe81564d")
+	)
+	(text "ADDR->GND 0x44\nADDR->VDD 0x45"
+		(exclude_from_sim no)
+		(at 398.78 72.644 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+		)
+		(uuid "57328eb3-3a29-4311-b89e-9c977e7d47d9")
+	)
+	(text "ADDR->0x7C"
+		(exclude_from_sim no)
+		(at 356.362 244.856 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+		)
+		(uuid "748398a1-17a9-4c0e-9f7c-a2e078799c5f")
+	)
 	(text "Temp Sens."
 		(exclude_from_sim no)
 		(at 312.928 123.952 0)
@@ -7172,6 +7232,46 @@
 			)
 		)
 		(uuid "76eeb54d-9b86-4d61-98ca-fe72e67891bf")
+	)
+	(text "ADDR->0X41\n"
+		(exclude_from_sim no)
+		(at 321.818 150.368 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+		)
+		(uuid "87b30f78-3cc4-452a-9e33-304723e3f6bb")
+	)
+	(text "ADDR->GND 0x44\nADDR->VDD 0x45"
+		(exclude_from_sim no)
+		(at 389.382 105.918 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+		)
+		(uuid "9824f018-cd25-4e2e-9e00-f9c9576a03f8")
+	)
+	(text "ADDR->GND 0x40\nADDR->VDD 0x41\nADDR->SDA 0x42\nADDR->SCL 0x43"
+		(exclude_from_sim no)
+		(at 317.5 183.134 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+		)
+		(uuid "b5620a6a-1d0b-46fe-bdb6-ae04c9a44364")
+	)
+	(text "ADDR->0xA6"
+		(exclude_from_sim no)
+		(at 174.498 90.678 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+		)
+		(uuid "c57bf9c3-2cbc-48b5-8fe5-c2c9c576396b")
 	)
 	(text "Magnetic Sens."
 		(exclude_from_sim no)
@@ -7183,6 +7283,16 @@
 		)
 		(uuid "cef8c13e-904d-4918-bcfb-0043fcc8829d")
 	)
+	(text "ADDR->0x30?"
+		(exclude_from_sim no)
+		(at 276.86 242.824 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+		)
+		(uuid "d76ccda7-c527-441f-8e8a-dbf7e7e1413d")
+	)
 	(text "Temp/Hum Sens."
 		(exclude_from_sim no)
 		(at 313.436 42.418 0)
@@ -7192,6 +7302,26 @@
 			)
 		)
 		(uuid "e33d72c6-9a0e-4342-a37c-2c0a4e5dd2a7")
+	)
+	(text "ADDR->GND 0x23\nADDR->VDD 0x5C"
+		(exclude_from_sim no)
+		(at 232.41 90.424 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+		)
+		(uuid "e514c732-bde1-475b-9ff6-18c3a6092a32")
+	)
+	(text "ADDR->GND 0x74\nADDR->VDD 0x76\nADDR->Float 0x46"
+		(exclude_from_sim no)
+		(at 168.656 140.97 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+		)
+		(uuid "e6eaba0b-12d4-487a-ad07-dcadb4561095")
 	)
 	(junction
 		(at 185.42 242.57)
@@ -14088,7 +14218,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" ""
+		(property "Datasheet" "https://optoelectronics.liteon.com/upload/download/DS86-2013-0014/LTR-507ALS-01_FINAL%20DS.pdf"
 			(at 191.77 116.84 0)
 			(effects
 				(font
@@ -16553,7 +16683,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "https://www.sensirion.com/fileadmin/user_upload/customers/sensirion/Dokumente/2_Humidity_Sensors/Datasheets/Sensirion_Humidity_Sensors_SHT3x_Datasheet_digital.pdf"
+		(property "Datasheet" "https://sensirion.com/media/documents/213E6A3B/63A5A569/Datasheet_SHT3x_DIS.pdf"
 			(at 410.21 55.88 0)
 			(effects
 				(font
