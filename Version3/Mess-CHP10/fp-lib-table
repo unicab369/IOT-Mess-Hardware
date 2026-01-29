@@ -1,0 +1,4 @@
+(fp_lib_table
+  (version 7)
+  (lib (name "My_Footprints")(type "KiCad")(uri "/Users/macbookpro/Documents/Code/iOT-Mess-Hardware/Footprints/My_Footprints.pretty")(options "")(descr ""))
+)
