@@ -13,7 +13,7 @@
       "shapes": 1.0,
       "tracks": 1.0,
       "vias": 1.0,
-      "zones": 0.41999998688697815
+      "zones": 0.6
     },
     "selection_filter": {
       "dimensions": true,
@@ -45,11 +45,12 @@
       "pads",
       "zones",
       "drc_warnings",
+      "drc_exclusions",
       "locked_item_shadows",
       "conflict_shadows",
       "shapes"
     ],
-    "visible_layers": "ffffffff_ffffffff_ffffd575_ffffff5f",
+    "visible_layers": "ffffffff_ffffffff_fffffff5_ffffff7f",
     "zone_display_mode": 0
   },
   "git": {
@@ -58,7 +59,7 @@
     "ssh_key": ""
   },
   "meta": {
-    "filename": "IOT-MESS-CHP20.kicad_prl",
+    "filename": "CH-NFC.kicad_prl",
     "version": 5
   },
   "net_inspector_panel": {
@@ -87,16 +88,16 @@
       9
     ],
     "col_widths": [
-      186,
-      171,
-      112,
-      79,
-      112,
-      112,
-      112,
-      83,
-      112,
-      112
+      156,
+      141,
+      103,
+      71,
+      103,
+      103,
+      103,
+      74,
+      103,
+      103
     ],
     "custom_group_rules": [],
     "expanded_rows": [],
