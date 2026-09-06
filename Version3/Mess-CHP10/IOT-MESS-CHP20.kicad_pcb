@@ -122,7 +122,7 @@
 				)
 			)
 		)
-		(property "Value" "CH57xQ_QFN10x3"
+		(property "Value" "CH57xQ_DFN10x3"
 			(at 0 2.575 0)
 			(layer "F.Fab")
 			(uuid "5ff03492-4c16-4fc9-8575-883c7325a2bf")
@@ -1175,7 +1175,7 @@
 			(roundrect_rratio 0.25)
 			(net 20 "Net-(J9-A)")
 			(pinfunction "VO")
-			(pintype "power_out")
+			(pintype "bidirectional")
 			(uuid "5b8ffdcd-666e-4fda-a8af-0eaa2942adb4")
 		)
 		(pad "3" smd roundrect

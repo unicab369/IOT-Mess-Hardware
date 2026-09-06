@@ -2370,7 +2370,7 @@
 					(justify left)
 				)
 			)
-			(property "Value" "CH57xQ_QFN10x3"
+			(property "Value" "CH57xQ_DFN10x3"
 				(at 2.1433 -2.54 0)
 				(effects
 					(font
@@ -2969,8 +2969,8 @@
 			(exclude_from_sim no)
 			(in_bom yes)
 			(on_board yes)
-			(property "Reference" "U"
-				(at -3.81 3.175 0)
+			(property "Reference" "U6"
+				(at 0 6.35 0)
 				(effects
 					(font
 						(size 1.27 1.27)
@@ -2978,12 +2978,11 @@
 				)
 			)
 			(property "Value" "XC6206PxxxMR"
-				(at 0 3.175 0)
+				(at 0 3.81 0)
 				(effects
 					(font
 						(size 1.27 1.27)
 					)
-					(justify left)
 				)
 			)
 			(property "Footprint" "Package_TO_SOT_SMD:SOT-23-3"
@@ -3082,7 +3081,7 @@
 						)
 					)
 				)
-				(pin power_out line
+				(pin bidirectional line
 					(at 7.62 0 180)
 					(length 2.54)
 					(name "VO"
@@ -5998,7 +5997,7 @@
 				(justify left)
 			)
 		)
-		(property "Value" "CH57xQ_QFN10x3"
+		(property "Value" "CH57xQ_DFN10x3"
 			(at 271.3833 60.96 0)
 			(effects
 				(font
